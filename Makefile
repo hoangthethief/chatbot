@@ -10,3 +10,6 @@ lint:
 
 test:
 	python -m pytest -vv --cov=hello test_hello.py
+
+build:
+	python main.py
